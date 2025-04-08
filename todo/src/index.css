@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+html {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+body {
+  @apply bg-gradient-to-l from-gray-100 to-gray-400;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.min-w-xs {
+  min-width: 360px;
+}
